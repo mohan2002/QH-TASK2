@@ -76,3 +76,5 @@ reset.addEventListener('click',function(){
     date.value=""
     drawImage()
 })
+
+
