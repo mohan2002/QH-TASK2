@@ -118,7 +118,8 @@ label {
     max-width: 80%;
   }
   #canvas {
-    max-height: 70%;
+    max-height: 50%;
+    box-shadow: none;
   }
   .btn {
     height: 50px;
