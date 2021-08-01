@@ -47,7 +47,7 @@ function drawCourse(){
 	context.fillStyle = '#27275d'
     var textString = course.value,
     textWidth = context.measureText(textString).width;
-    context.fillText(textString.toUpperCase(), ((canvas.width/2) - (textWidth/2) - 15),385)
+    context.fillText(textString.toUpperCase(), ((canvas.width/2) - (textWidth/2) - 10),385)
     
 }
 
