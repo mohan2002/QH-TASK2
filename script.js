@@ -9,7 +9,7 @@ var download = document.getElementById("btn");
 var reset = document.querySelector(".btn1")
 
 var image_base = new Image()
-image_base.src = 'images/img1.png'
+image_base.src = 'images/img2.png'
 
 image_base.onload = function(){
     drawImage()
@@ -39,7 +39,7 @@ function drawName(){
 	context.fillStyle = '#27275d'
     var textString = nameInput.value,
     textWidth = context.measureText(textString).width;
-    context.fillText(textString.toUpperCase(), (canvas.width/2) - (textWidth/2),250)
+    context.fillText(textString.toUpperCase(), ((canvas.width/2) - (textWidth/2) - 35),265)
 }
 
 function drawCourse(){
@@ -47,7 +47,7 @@ function drawCourse(){
 	context.fillStyle = '#27275d'
     var textString = course.value,
     textWidth = context.measureText(textString).width;
-    context.fillText(textString.toUpperCase(), (canvas.width/2) - (textWidth/2),370)
+    context.fillText(textString.toUpperCase(), ((canvas.width/2) - (textWidth/2) - 15),385)
     
 }
 
@@ -55,7 +55,7 @@ function drawDate(){
     context.font = '600 20px sans-serif'
 	context.fillStyle = '#27275d'
     var textString = date.value
-    context.fillText(textString,500,495)
+    context.fillText(textString,520,500)
 }
 
 download.addEventListener('click', function(){
