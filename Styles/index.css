@@ -116,7 +116,8 @@ label {
     background-color: white;
   }
   .banner {
-    font-size: 13px;
+    font-size: 12px;
+    height: 60px;
   }
   .form {
     max-width: 70%;
@@ -126,6 +127,9 @@ label {
     box-shadow: none;
   }
   .btn {
-    height: 50px;
+    padding: 2px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 10px;
   }
 }
