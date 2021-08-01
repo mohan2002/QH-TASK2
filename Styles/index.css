@@ -112,11 +112,14 @@ label {
 }
 
 @media all and (max-width: 680px) {
+  body {
+    background-color: white;
+  }
   .banner {
     font-size: 13px;
   }
   .form {
-    max-width: 80%;
+    max-width: 70%;
   }
   #canvas {
     max-height: 65%;
