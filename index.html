@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,15 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certificate Downloader</title>
     <link rel="stylesheet" href="./Styles/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-    <div class="banner">
-        <h1 class="top">Download Certificates Here..🚀</h1>
-    </div>
+    <Header>
+        
+        <div class="left-hdr">
+            <div>
+                <img src="images/qh-logo.png" alt="">
+            </div>
+            <div class="field">
+                <div class="txt-box">
+                    <i class="fas fa-search icon"></i>
+                    <input type="text" class="input" placeholder="Jobs,People,Courses">
+                </div>
+                
+                <button class="btn3">Search</button>
+            </div>
+        </div>
+        <div class="right-hdr">
+            <div class="grp">
+                <i class="fas fa-graduation-cap"></i>
+                <p>Courses</p>
+            </div>
+            <div class="grp">
+                <i class="fas fa-users"></i>
+                <p>People</p>
+            </div>
+            <div class="grp">
+                <i class="far fa-address-card"></i>
+                <p>Recruit</p>
+            </div>
+            <div class="grp">
+                <i class="fas fa-wallet"></i>
+                <p>Jobs</p>
+            </div>
+            <div>
+                <img src="images/my.jpg" alt="" class="my">
+            </div>
+        </div>
+    </Header>
+
     <div class="form">
         <h2>Enter the Credentials:</h2>
         <div class="name">
@@ -33,6 +70,40 @@
     <button class="btn1">Reset</button>
     <canvas id="canvas" height="650px" width="1000px" style="width:70%; height:100%"></canvas>
     <button class="btn" id="btn">Download</button>
+
+    <Footer>
+        <div class="container">
+        <div class="left-ftr">
+            <div>
+                <img src="images/qh-logo.png" alt="">
+                <p>QUANTUMHUNTS is a career platform for connecting job seekers and job providers. We help companies build amazing team and build awesome products and services.</p>
+            </div>
+        </div>
+
+        <div class="right-ftr">
+        <div>
+            <h1>COMPANY</h1>
+            <P>About Us</P>
+            <P>Solutions</P>
+            <P>Approach</P>
+            <P>Events</P>
+        </div>
+        <div>
+            <h1>CAREER</h1>
+            <p>Culture</p>
+            <p>Careers</p>
+            <p>Jobs</p>
+        </div>
+        <div>
+            <h1>SUPPORT</h1>
+            <p>Contact</p>
+            <p>Employeer Feedback</p>
+            <p>Location</p>
+            <p>Privacy</p>
+        </div>
+    </div>
+</div>
+    </Footer>
 </body>
 <script src="script.js"></script>
 </html>
